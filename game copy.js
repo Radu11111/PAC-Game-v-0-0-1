@@ -15,7 +15,8 @@ let bomb_state = true
 
 function action() {
     switch (event.key) {
-        case "ArrowUp": pac_y--;break
+        case "ArrowUp": pac_y--
+            if (pac_y > 0);break
         case "ArrowDown": pac_y++; break
         case "ArrowRight": pac_x++;break
         case "ArrowLeft": pac_x--;break
