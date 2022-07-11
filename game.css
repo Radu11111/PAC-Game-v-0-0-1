@@ -1,0 +1,26 @@
+body {
+    background-color: #333;
+}
+.gameMap {
+    width: 500px;
+    height: 500px;
+    border: 10px solid #666;
+    color: white;
+}
+.gameMap div {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #555;
+    color: white;
+
+    float: left;
+}
+.gameMap .pac {
+    background-image: url(https://icons.iconarchive.com/icons/ph03nyx/super-mario/48/Chain-Chomp-icon.png);
+}
+.gameMap .coin {
+    background-image: url(https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/48/coin-us-dollar-icon.png);
+}
+.gameMap .bomb {
+    background-image: url(https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Actions-edit-bomb-icon.png);
+}
